@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import fs from "fs";
 import Insight from "./models/Insight.js";
-import connectDB from "./config/db.js";
+import { connectDB } from "./config/db.js";
 
 connectDB();
 
