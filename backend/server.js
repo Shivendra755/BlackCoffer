@@ -12,7 +12,7 @@ const app = express();
 const Port = process.env.Port  || 2000
 app.use(
   cors({
-    origin: ["http://localhost:5173","http://localhost:5174"],
+    origin: ["https://blackcoffer-frontend-wbrv.onrender.com","http://localhost:5173","http://localhost:5174"],
     credentials: true
   })
 );
